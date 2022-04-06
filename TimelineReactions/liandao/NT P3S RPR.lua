@@ -1,5 +1,96 @@
 local tbl = 
 {
+	[7] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = -1,
+							actionLua = "",
+							allowInterrupt = false,
+							atomicPriority = false,
+							castAtMouse = false,
+							castPosX = 0,
+							castPosY = 0,
+							castPosZ = 0,
+							clusterMinPercent = false,
+							clusterMinTarget = 1,
+							clusterRadius = 8,
+							clusterRange = 30,
+							conditions = 
+							{
+							},
+							endIfUsed = false,
+							fallthrough = false,
+							gVar = "ACR_TensorReaper_ShadowOfDeath",
+							gVarValue = 2,
+							ignoreWeaveRules = false,
+							isAreaTarget = false,
+							luaNeedsWeaveWindow = false,
+							luaReturnsAction = false,
+							name = "",
+							potType = 1,
+							setTarget = false,
+							showPositionPreview = false,
+							stopCasting = false,
+							stopMoving = false,
+							targetContentID = -1,
+							targetName = "",
+							targetSubType = "Nearest",
+							targetType = "Self",
+							untarget = false,
+							useForWeaving = false,
+							useItem = false,
+							useItemID = 0,
+							useItemName = "",
+							usePot = false,
+							uuid = "ec825ca1-56ec-176e-ae5e-38c563c24866",
+							variableIsHover = false,
+							variableTogglesType = 1,
+							version = 2,
+						},
+						inheritedObjectUUID = "",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = true,
+				eventType = 1,
+				execute = "",
+				executeType = 1,
+				lastUse = 0,
+				loop = false,
+				luaNeedsWeaveWindow = false,
+				luaReturnsAction = false,
+				mechanicTime = 58.8,
+				name = "CLOSE dot",
+				randomOffset = 30,
+				throttleTime = 0,
+				timeRandomRange = false,
+				timeRange = true,
+				timelineIndex = 7,
+				timeout = 5,
+				timerEndOffset = 0,
+				timerOffset = 16,
+				timerStartOffset = 0,
+				uuid = "c1b48e39-de08-f046-8cb8-c2bb75b03d4c",
+				version = 2,
+			},
+			inheritedObjectUUID = "",
+		},
+	},
 	[8] = 
 	{
 		
@@ -441,6 +532,103 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 0,
+							actionID = -1,
+							buffCheckType = 1,
+							buffDuration = 0,
+							buffID = -1,
+							buffIDList = 
+							{
+							},
+							category = "Self",
+							channelCheckSpellID = -1,
+							channelCheckSpellIDList = 
+							{
+							},
+							channelCheckTimeRemain = 0,
+							channelCheckType = 1,
+							clusterMinPercent = false,
+							clusterMinTarget = 1,
+							clusterOriginalTarget = false,
+							clusterRadius = 8,
+							clusterRange = 30,
+							comparator = 1,
+							conditionLua = "",
+							conditionType = 5,
+							conditions = 
+							{
+							},
+							contentid = -1,
+							dequeueIfLuaFalse = false,
+							enmityValue = 0,
+							eventArgOptionType = 1,
+							eventArgType = 1,
+							eventBuffDuration = 0,
+							eventBuffID = -1,
+							eventChatLine = "",
+							eventEntityContentID = -1,
+							eventEntityID = -1,
+							eventEntityName = "",
+							eventMarkerID = -1,
+							eventOwnerContentID = -1,
+							eventOwnerID = -1,
+							eventOwnerName = "",
+							eventSpellID = -1,
+							eventSpellName = -1,
+							eventTargetContentID = -1,
+							eventTargetID = -1,
+							eventTargetName = "",
+							filterTargetSubtype = "Nearest",
+							filterTargetType = "Self",
+							gaugeIndex = 1,
+							gaugeValue = 0,
+							hpType = 1,
+							hpValue = 0,
+							inCombatType = 1,
+							inRangeValue = 0,
+							lastSkillID = 24387,
+							localMapIDList = 
+							{
+							},
+							localmapid = -1,
+							markerIDList = 
+							{
+							},
+							matchAnyBuff = false,
+							minTargetPercent = false,
+							mpType = 1,
+							mpValue = 0,
+							name = "",
+							partyHpType = 1,
+							partyHpValue = 0,
+							partyMpType = 1,
+							partyMpValue = 0,
+							partyTargetContentID = -1,
+							partyTargetName = "",
+							partyTargetNumber = 1,
+							partyTargetSubType = "Nearest",
+							partyTargetType = "All",
+							rangeCheckSourceSubType = "Nearest",
+							rangeCheckSourceType = "Self",
+							rangeSourceContentID = -1,
+							rangeSourceName = "",
+							setEventTargetSubtype = 1,
+							setFirstMatch = false,
+							spellIDList = 
+							{
+							},
+							uuid = "be886ae0-e53e-432c-aa95-23201f412340",
+							version = 2,
+						},
+						inheritedObjectUUID = "",
+						inheritedOverwrites = 
+						{
+						},
+					},
 				},
 				enabled = true,
 				eventType = 1,
