@@ -335,15 +335,15 @@ local tbl =
 				luaReturnsAction = false,
 				mechanicTime = 69,
 				name = "open dot",
-				randomOffset = 30,
+				randomOffset = 60,
 				throttleTime = 0,
 				timeRandomRange = false,
-				timeRange = false,
+				timeRange = true,
 				timelineIndex = 8,
 				timeout = 5,
-				timerEndOffset = 0,
-				timerOffset = 15,
-				timerStartOffset = 0,
+				timerEndOffset = 30,
+				timerOffset = 10,
+				timerStartOffset = 15,
 				uuid = "a97e70af-15e7-1e58-9906-fedb5187d5ea",
 				version = 2,
 			},
@@ -2409,6 +2409,9 @@ local tbl =
 			inheritedIndex = 13,
 			inheritedObjectUUID = "",
 		},
+	},
+	[50] = 
+	{
 		
 		{
 			data = 
@@ -2436,11 +2439,11 @@ local tbl =
 							{
 								
 								{
-									"9329db14-7314-0e2a-88fe-e71e6a4341d8",
+									"509bd6ca-2e62-e610-a595-492a46ee4a1a",
 									true,
 								},
 							},
-							endIfUsed = false,
+							endIfUsed = true,
 							fallthrough = false,
 							gVar = "",
 							gVarValue = 1,
@@ -2485,7 +2488,7 @@ local tbl =
 							actionID = -1,
 							buffCheckType = 1,
 							buffDuration = 0,
-							buffID = -1,
+							buffID = 2586,
 							buffIDList = 
 							{
 							},
@@ -2566,10 +2569,9 @@ local tbl =
 							spellIDList = 
 							{
 							},
-							uuid = "9329db14-7314-0e2a-88fe-e71e6a4341d8",
+							uuid = "509bd6ca-2e62-e610-a595-492a46ee4a1a",
 							version = 2,
 						},
-						inheritedIndex = 1,
 						inheritedObjectUUID = "",
 						inheritedOverwrites = 
 						{
@@ -2584,18 +2586,18 @@ local tbl =
 				loop = false,
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
-				mechanicTime = 500,
-				name = "爆发close",
+				mechanicTime = 521.2,
+				name = "TUANFU",
 				randomOffset = 10,
 				throttleTime = 0,
 				timeRandomRange = false,
 				timeRange = true,
-				timelineIndex = 46,
+				timelineIndex = 50,
 				timeout = 5,
-				timerEndOffset = 10,
+				timerEndOffset = 20,
 				timerOffset = -5,
-				timerStartOffset = -3,
-				uuid = "dd7897c0-1737-8782-96cf-39c741bb2269",
+				timerStartOffset = -10,
+				uuid = "ad153c7d-514f-5a58-90e8-313d67a63069",
 				version = 2,
 			},
 			inheritedIndex = 13,
