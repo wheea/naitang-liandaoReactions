@@ -1743,7 +1743,7 @@ local tbl =
 					data = 
 					{
 						aType = "Skill",
-						actionID = 24393,
+						actionID = 24394,
 						actionLua = "",
 						allowInterrupt = false,
 						atomicPriority = false,
@@ -1764,12 +1764,12 @@ local tbl =
 							},
 							
 							{
-								"6b47e40c-66a9-9784-aca7-da53bfe4d89a",
+								"694577ff-0ba0-82e7-b7b4-de9a6db14ea2",
 								true,
 							},
 							
 							{
-								"694577ff-0ba0-82e7-b7b4-de9a6db14ea2",
+								"6b47e40c-66a9-9784-aca7-da53bfe4d89a",
 								true,
 							},
 						},
@@ -1790,7 +1790,7 @@ local tbl =
 						targetContentID = -1,
 						targetName = "",
 						targetSubType = "Nearest",
-						targetType = "Current Target",
+						targetType = "Self",
 						untarget = false,
 						useForWeaving = false,
 						useItem = false,
@@ -1914,7 +1914,7 @@ local tbl =
 						actionCDValue = 0,
 						actionID = -1,
 						buffCheckType = 3,
-						buffDuration = 1,
+						buffDuration = 5,
 						buffID = 2599,
 						buffIDList = 
 						{
@@ -1931,7 +1931,7 @@ local tbl =
 						clusterOriginalTarget = false,
 						clusterRadius = 8,
 						clusterRange = 30,
-						comparator = 2,
+						comparator = 1,
 						conditionLua = "",
 						conditionType = 1,
 						conditions = 
@@ -2009,8 +2009,8 @@ local tbl =
 				{
 					data = 
 					{
-						actionCDValue = 1,
-						actionID = 24393,
+						actionCDValue = 1.2000000476837,
+						actionID = 24394,
 						buffCheckType = 1,
 						buffDuration = 0,
 						buffID = -1,
