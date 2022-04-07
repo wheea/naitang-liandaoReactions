@@ -2440,7 +2440,7 @@ local tbl =
 									true,
 								},
 							},
-							endIfUsed = true,
+							endIfUsed = false,
 							fallthrough = false,
 							gVar = "",
 							gVarValue = 1,
