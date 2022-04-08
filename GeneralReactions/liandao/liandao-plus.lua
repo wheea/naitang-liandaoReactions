@@ -1804,7 +1804,7 @@ local tbl =
 						hpValue = 0,
 						inCombatType = 1,
 						inRangeValue = 0,
-						lastSkillID = 24389,
+						lastSkillID = 24385,
 						localMapIDList = 
 						{
 						},
