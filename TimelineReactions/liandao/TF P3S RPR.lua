@@ -2709,7 +2709,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"anyone\\savage\\p3s",
+		"Rose\\Rose P3S",
 	},
 	mapID = 1007,
 	version = 4,
