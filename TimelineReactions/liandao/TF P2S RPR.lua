@@ -1369,6 +1369,7 @@ local tbl =
 				uuid = "2ef13719-0c50-a384-8a93-8a245eaa64b2",
 				version = 2,
 			},
+			inheritedIndex = 1,
 			inheritedObjectUUID = "",
 		},
 		
@@ -2786,7 +2787,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 70,
 				timeout = 5,
-				timerEndOffset = 10,
+				timerEndOffset = 20,
 				timerOffset = 0,
 				timerStartOffset = 0,
 				uuid = "3c609729-bd6d-152c-ab1a-ca7c715dc1bd",
