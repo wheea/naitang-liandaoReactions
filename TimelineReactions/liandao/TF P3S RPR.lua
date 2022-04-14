@@ -3744,6 +3744,61 @@ local tbl =
 					{
 						data = 
 						{
+							aType = "Variable",
+							actionID = -1,
+							actionLua = "",
+							allowInterrupt = false,
+							atomicPriority = false,
+							castAtMouse = false,
+							castPosX = 0,
+							castPosY = 0,
+							castPosZ = 0,
+							clusterMinPercent = false,
+							clusterMinTarget = 1,
+							clusterRadius = 8,
+							clusterRange = 30,
+							conditions = 
+							{
+							},
+							endIfUsed = false,
+							fallthrough = false,
+							gVar = "ACR_TensorReaper_ShadowOfDeath",
+							gVarValue = 1,
+							ignoreWeaveRules = false,
+							isAreaTarget = false,
+							luaNeedsWeaveWindow = false,
+							luaReturnsAction = false,
+							name = "",
+							potType = 1,
+							setTarget = false,
+							showPositionPreview = false,
+							stopCasting = false,
+							stopMoving = false,
+							targetContentID = -1,
+							targetName = "",
+							targetSubType = "Nearest",
+							targetType = "Self",
+							untarget = false,
+							useForWeaving = false,
+							useItem = false,
+							useItemID = 0,
+							useItemName = "",
+							usePot = false,
+							uuid = "88faefac-ec23-73ca-838b-d02308ed67f7",
+							variableIsHover = false,
+							variableTogglesType = 1,
+							version = 2,
+						},
+						inheritedIndex = 3,
+						inheritedObjectUUID = "",
+						inheritedOverwrites = 
+						{
+						},
+					},
+					
+					{
+						data = 
+						{
 							aType = "Skill",
 							actionID = 24394,
 							actionLua = "",
