@@ -386,7 +386,7 @@ local tbl =
 			inheritedObjectUUID = "",
 		},
 	},
-	[22] = 
+	[23] = 
 	{
 		
 		{
@@ -460,18 +460,18 @@ local tbl =
 				loop = false,
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
-				mechanicTime = 187.2,
+				mechanicTime = 187.7,
 				name = "OPEN附体",
 				randomOffset = 0,
 				throttleTime = 0,
 				timeRandomRange = false,
 				timeRange = false,
-				timelineIndex = 22,
+				timelineIndex = 23,
 				timeout = 5,
 				timerEndOffset = 0,
-				timerOffset = -10.5,
+				timerOffset = 1,
 				timerStartOffset = 0,
-				uuid = "598c2d5b-8885-dc7e-91c7-966041f27512",
+				uuid = "b16109dd-e726-cd1f-90c5-b2f10e1076b9",
 				version = 2,
 			},
 			inheritedObjectUUID = "",
