@@ -239,6 +239,7 @@ local tbl =
 							variableTogglesType = 1,
 							version = 2,
 						},
+						inheritedIndex = 1,
 						inheritedObjectUUID = "",
 						inheritedOverwrites = 
 						{
