@@ -96,18 +96,15 @@ local tbl =
 							{
 								
 								{
-									"8b50771c-7609-2c6b-9ea9-76ea08435e3e",
-									true,
+									[2] = true,
 								},
 								
 								{
-									"d6e8f5f3-6de9-0558-92dd-103e3f8f6577",
-									true,
+									[2] = true,
 								},
 								
 								{
-									"e0d50588-b012-dfe4-bf84-23065a3a3ada",
-									true,
+									[2] = true,
 								},
 							},
 							endIfUsed = false,
@@ -1845,6 +1842,16 @@ local tbl =
 							},
 							
 							{
+								"694577ff-0ba0-82e7-b7b4-de9a6db14ea2",
+								true,
+							},
+							
+							{
+								"f174e53e-1f3d-e339-9b41-4fce833a0804",
+								true,
+							},
+							
+							{
 								"6b47e40c-66a9-9784-aca7-da53bfe4d89a",
 								true,
 							},
@@ -2182,7 +2189,7 @@ local tbl =
 				{
 					data = 
 					{
-						actionCDValue = 0.5,
+						actionCDValue = 0.20000000298023,
 						actionID = 24394,
 						buffCheckType = 1,
 						buffDuration = 0,
