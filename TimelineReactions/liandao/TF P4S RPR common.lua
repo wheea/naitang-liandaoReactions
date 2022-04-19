@@ -490,7 +490,6 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"store\\anyone\\savage\\p4s",
 	},
 	mapID = 1009,
 	version = 3,
