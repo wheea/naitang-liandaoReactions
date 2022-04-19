@@ -295,6 +295,44 @@ local tbl =
 			inheritedObjectUUID = "",
 		},
 	},
+	[7] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "[SMN] Disable Potion",
+				uuid = "d3eabe6a-0dc7-907e-8e2f-fcd7ef5a5778",
+				version = 2,
+			},
+			inheritedObjectUUID = "63717eec-40c7-8e99-ae53-7ab463c782b5",
+			inheritedOverwrites = 
+			{
+				conditions = 
+				{
+					
+					{
+						position = 1,
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								name = "",
+								uuid = "d014eb59-af6a-8c78-b7b9-3d0d44d0c8ab",
+								version = 2,
+							},
+							inheritedIndex = 1,
+							inheritedObjectUUID = "b2900f62-b3d4-fc2e-8a01-356c2b0d9ed1",
+							inheritedOverwrites = 
+							{
+							},
+						},
+					},
+				},
+			},
+		},
+	},
 	[16] = 
 	{
 		
@@ -1254,7 +1292,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"anyone\\savage\\p1s",
+		"store\\anyone\\savage\\p1s",
 	},
 	mapID = 1003,
 	version = 3,
