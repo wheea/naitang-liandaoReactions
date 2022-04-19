@@ -4,161 +4,14 @@ local tbl =
 	{
 		data = 
 		{
-			name = "Draw line to nisi partner",
-			uuid = "674da2c1-ec32-4ddf-9ea3-f44c289e444c",
-			version = 2,
-		},
-		inheritedIndex = 18,
-		inheritedObjectUUID = "d407b118-0ab8-7108-85e9-49965f87aded",
-		inheritedOverwrites = 
-		{
-			actions = 
-			{
-				
-				{
-					position = 9,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "need alpha",
-							uuid = "36d0d5b2-001d-d2e8-a4d5-5f97dc9cff58",
-							version = 2,
-						},
-						inheritedIndex = 9,
-						inheritedObjectUUID = "43dcfa58-abc5-b210-b489-648389286470",
-						inheritedOverwrites = 
-						{
-						},
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					position = 13,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "58816d7b-3df7-24f6-852d-2a47f5036dd6",
-							version = 2,
-						},
-						inheritedIndex = 13,
-						inheritedObjectUUID = "ad817bc9-818f-ddb6-8442-140d774ac7e0",
-						inheritedOverwrites = 
-						{
-						},
-					},
-				},
-			},
-		},
-	},
-	
-	{
-		data = 
-		{
 			name = "Prepull Helper",
-			uuid = "f7908eb3-0a29-273a-b840-ab2ec72e4aa9",
+			uuid = "6076e580-8a97-52e8-9e6b-779c2a74aed7",
 			version = 2,
 		},
 		inheritedObjectUUID = "65d180bc-992f-260d-849b-2072f5fcd8ce",
 		inheritedOverwrites = 
 		{
-			actions = 
-			{
-				
-				{
-					position = 7,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							aType = "Skill",
-							actionID = 24378,
-							actionLua = "",
-							allowInterrupt = false,
-							atomicPriority = false,
-							castAtMouse = false,
-							castPosX = 0,
-							castPosY = 0,
-							castPosZ = 0,
-							clusterMinPercent = false,
-							clusterMinTarget = 1,
-							clusterRadius = 8,
-							clusterRange = 30,
-							conditions = 
-							{
-								
-								{
-									[2] = true,
-								},
-								
-								{
-									[2] = true,
-								},
-								
-								{
-									[2] = true,
-								},
-							},
-							endIfUsed = false,
-							fallthrough = false,
-							gVar = "",
-							gVarValue = 1,
-							ignoreWeaveRules = true,
-							isAreaTarget = false,
-							luaNeedsWeaveWindow = false,
-							luaReturnsAction = false,
-							name = "",
-							potType = 1,
-							setTarget = false,
-							showPositionPreview = false,
-							stopCasting = false,
-							stopMoving = false,
-							targetContentID = -1,
-							targetName = "",
-							targetSubType = "Nearest",
-							targetType = "Current Target",
-							untarget = false,
-							useForWeaving = false,
-							useItem = false,
-							useItemID = 0,
-							useItemName = "",
-							usePot = false,
-							uuid = "faf97427-3e05-f07b-92f3-1705343d7ad4",
-							variableIsHover = false,
-							variableTogglesType = 1,
-							version = 2,
-						},
-						inheritedIndex = 7,
-						inheritedObjectUUID = "",
-						inheritedOverwrites = 
-						{
-						},
-					},
-				},
-			},
 			enabled = false,
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Nail swap",
-			uuid = "2b1d0d42-5e07-397a-91c9-0fe3cc3b21ec",
-			version = 2,
-		},
-		inheritedIndex = 26,
-		inheritedObjectUUID = "56280c2f-4e2f-9824-9c2d-5f763633ee13",
-		inheritedOverwrites = 
-		{
 		},
 	},
 	
@@ -2394,7 +2247,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "爆发期优化",
+			name = "youhua",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
@@ -2412,7 +2265,7 @@ local tbl =
 	}, 
 	inheritedProfiles = 
 	{
-		"anyone\\reaper",
+		"store\\anyone\\reaper",
 	},
 }
 
