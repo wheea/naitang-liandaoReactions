@@ -482,7 +482,7 @@ local tbl =
 				timeout = 5,
 				timerEndOffset = 40,
 				timerOffset = -20,
-				timerStartOffset = 20,
+				timerStartOffset = 1,
 				uuid = "47a5bb86-03bf-ee91-9502-bfe7d51a2464",
 				version = 2,
 			},
