@@ -191,6 +191,7 @@ local tbl =
 				uuid = "83e87362-6a45-7af2-84d8-1e2f51ed299d",
 				version = 2,
 			},
+			inheritedIndex = 1,
 			inheritedObjectUUID = "",
 		},
 		
@@ -204,7 +205,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 7549,
+							actionID = -1,
 							actionLua = "",
 							allowInterrupt = false,
 							atomicPriority = false,
@@ -220,7 +221,7 @@ local tbl =
 							{
 								
 								{
-									"be886ae0-e53e-432c-aa95-23201f412340",
+									"25492271-6ba8-5893-a46c-279abe51edde",
 									true,
 								},
 							},
@@ -241,41 +242,21 @@ local tbl =
 							targetContentID = -1,
 							targetName = "",
 							targetSubType = "Nearest",
-							targetType = "Current Target",
+							targetType = "Self",
 							untarget = false,
 							useForWeaving = false,
 							useItem = false,
 							useItemID = 0,
 							useItemName = "",
 							usePot = false,
-							uuid = "eea7b178-600d-c65d-9e5e-fc25d2df22ea",
+							uuid = "37844c6f-6e17-d604-b742-b256388fe597",
 							variableIsHover = false,
 							variableTogglesType = 1,
 							version = 2,
 						},
-						inheritedIndex = 1,
 						inheritedObjectUUID = "",
 						inheritedOverwrites = 
 						{
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										[2] = true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										[2] = true,
-									},
-								},
-							},
 						},
 					},
 				},
@@ -339,7 +320,7 @@ local tbl =
 							hpValue = 0,
 							inCombatType = 1,
 							inRangeValue = 0,
-							lastSkillID = 24387,
+							lastSkillID = -1,
 							localMapIDList = 
 							{
 							},
@@ -370,9 +351,10 @@ local tbl =
 							spellIDList = 
 							{
 							},
-							uuid = "be886ae0-e53e-432c-aa95-23201f412340",
+							uuid = "25492271-6ba8-5893-a46c-279abe51edde",
 							version = 2,
 						},
+						inheritedIndex = 1,
 						inheritedObjectUUID = "",
 						inheritedOverwrites = 
 						{
@@ -388,20 +370,20 @@ local tbl =
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
 				mechanicTime = 22.8,
-				name = "close收获月",
-				randomOffset = 0,
+				name = "close moon",
+				randomOffset = 30,
 				throttleTime = 0,
 				timeRandomRange = false,
 				timeRange = true,
 				timelineIndex = 4,
 				timeout = 5,
 				timerEndOffset = 40,
-				timerOffset = 0,
+				timerOffset = -20,
 				timerStartOffset = 2,
-				uuid = "cf296263-c763-098c-a92e-db99ea49545b",
+				uuid = "9b974de7-e0f1-acab-a810-d9fa8b5d9eb1",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 2,
 			inheritedObjectUUID = "",
 		},
 	},
@@ -1697,7 +1679,6 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"store\\anyone\\savage\\p1s",
 	},
 	mapID = 1003,
 	version = 3,
