@@ -187,7 +187,7 @@ local tbl =
 				timeout = 5,
 				timerEndOffset = 40,
 				timerOffset = -20,
-				timerStartOffset = 2,
+				timerStartOffset = 0,
 				uuid = "83e87362-6a45-7af2-84d8-1e2f51ed299d",
 				version = 2,
 			},
@@ -1679,6 +1679,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\savage\\p1s",
 	},
 	mapID = 1003,
 	version = 3,
