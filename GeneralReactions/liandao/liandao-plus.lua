@@ -1690,7 +1690,7 @@ local tbl =
 						{
 							
 							{
-								"7d8c77c8-56bb-cb3d-864c-9fc06b3be2d8",
+								"6b47e40c-66a9-9784-aca7-da53bfe4d89a",
 								true,
 							},
 							
@@ -1700,17 +1700,17 @@ local tbl =
 							},
 							
 							{
-								"6b47e40c-66a9-9784-aca7-da53bfe4d89a",
-								true,
-							},
-							
-							{
-								"f174e53e-1f3d-e339-9b41-4fce833a0804",
+								"7d8c77c8-56bb-cb3d-864c-9fc06b3be2d8",
 								true,
 							},
 							
 							{
 								"694577ff-0ba0-82e7-b7b4-de9a6db14ea2",
+								true,
+							},
+							
+							{
+								"f174e53e-1f3d-e339-9b41-4fce833a0804",
 								true,
 							},
 						},
@@ -1743,6 +1743,7 @@ local tbl =
 						variableTogglesType = 1,
 						version = 2,
 					},
+					inheritedIndex = 1,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -1950,7 +1951,7 @@ local tbl =
 				{
 					data = 
 					{
-						actionCDValue = 1.2000000476837,
+						actionCDValue = 1.5,
 						actionID = 24394,
 						buffCheckType = 1,
 						buffDuration = 0,
