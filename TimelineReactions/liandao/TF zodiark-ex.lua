@@ -75,7 +75,7 @@ local tbl =
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
 				mechanicTime = 155.9,
-				name = "关闭第三次附体",
+				name = "close futi",
 				randomOffset = 0,
 				throttleTime = 0,
 				timeRandomRange = false,
@@ -644,7 +644,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
-		"anyone\\extremes\\zodiark",
+		"store\\anyone\\extremes\\zodiark",
 	},
 	mapID = 993,
 	version = 2,
