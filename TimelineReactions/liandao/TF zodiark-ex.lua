@@ -143,12 +143,11 @@ local tbl =
 							useItemID = 0,
 							useItemName = "",
 							usePot = false,
-							uuid = "20f2cf6c-ec68-db1f-affb-766cee8a944e",
+							uuid = "275f5ee9-fc88-2c47-8790-948dfccb6a4c",
 							variableIsHover = false,
 							variableTogglesType = 1,
 							version = 2,
 						},
-						inheritedIndex = 1,
 						inheritedObjectUUID = "",
 						inheritedOverwrites = 
 						{
@@ -167,7 +166,7 @@ local tbl =
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
 				mechanicTime = 166,
-				name = "close dots",
+				name = "close dot",
 				randomOffset = 0,
 				throttleTime = 0,
 				timeRandomRange = false,
@@ -177,12 +176,14 @@ local tbl =
 				timerEndOffset = 0,
 				timerOffset = 0,
 				timerStartOffset = 0,
-				uuid = "48f59ae2-567e-5014-97a5-b4df61029b48",
+				uuid = "f373974e-e365-735a-bf3e-53d9b302f1e9",
 				version = 2,
 			},
-			inheritedIndex = 1,
 			inheritedObjectUUID = "",
 		},
+	},
+	[23] = 
+	{
 		
 		{
 			data = 
@@ -210,7 +211,7 @@ local tbl =
 							{
 								
 								{
-									"71329543-4dc4-fc7d-855c-6a17662530dd",
+									"cf2819ef-0cb9-4f07-a6ca-4ae8b452101c",
 									true,
 								},
 							},
@@ -238,7 +239,7 @@ local tbl =
 							useItemID = 0,
 							useItemName = "",
 							usePot = false,
-							uuid = "f5239bcb-1a00-7efa-8587-6f6a26dc34d7",
+							uuid = "3a36a14e-1f12-880a-97b7-8936ec9c1419",
 							variableIsHover = false,
 							variableTogglesType = 1,
 							version = 2,
@@ -257,13 +258,13 @@ local tbl =
 						{
 							actionCDValue = 0,
 							actionID = -1,
-							buffCheckType = 1,
+							buffCheckType = 2,
 							buffDuration = 0,
-							buffID = -1,
+							buffID = 2586,
 							buffIDList = 
 							{
 							},
-							category = "Lua",
+							category = "Target",
 							channelCheckSpellID = -1,
 							channelCheckSpellIDList = 
 							{
@@ -276,7 +277,7 @@ local tbl =
 							clusterRadius = 8,
 							clusterRange = 30,
 							comparator = 1,
-							conditionLua = "return table.size(EntityList(\"attackable,maxdistance=20\")) >= 2",
+							conditionLua = "",
 							conditionType = 1,
 							conditions = 
 							{
@@ -340,7 +341,7 @@ local tbl =
 							spellIDList = 
 							{
 							},
-							uuid = "71329543-4dc4-fc7d-855c-6a17662530dd",
+							uuid = "cf2819ef-0cb9-4f07-a6ca-4ae8b452101c",
 							version = 2,
 						},
 						inheritedObjectUUID = "",
@@ -357,18 +358,18 @@ local tbl =
 				loop = false,
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
-				mechanicTime = 166,
-				name = "DOT",
-				randomOffset = 30,
+				mechanicTime = 167.4,
+				name = "aoe dot",
+				randomOffset = 10,
 				throttleTime = 0,
 				timeRandomRange = false,
 				timeRange = true,
-				timelineIndex = 22,
+				timelineIndex = 23,
 				timeout = 5,
-				timerEndOffset = 30,
-				timerOffset = 0,
-				timerStartOffset = 0,
-				uuid = "b7f91c81-bb74-04d9-bd65-5cbd37e36c87",
+				timerEndOffset = 10,
+				timerOffset = -13,
+				timerStartOffset = -13,
+				uuid = "9871af94-44ac-44a5-91f7-0f8905641049",
 				version = 2,
 			},
 			inheritedObjectUUID = "",
@@ -516,6 +517,60 @@ local tbl =
 							useItemName = "",
 							usePot = false,
 							uuid = "55c2604a-b819-2882-8898-e17fb8254543",
+							variableIsHover = false,
+							variableTogglesType = 1,
+							version = 2,
+						},
+						inheritedObjectUUID = "",
+						inheritedOverwrites = 
+						{
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = -1,
+							actionLua = "",
+							allowInterrupt = false,
+							atomicPriority = false,
+							castAtMouse = false,
+							castPosX = 0,
+							castPosY = 0,
+							castPosZ = 0,
+							clusterMinPercent = false,
+							clusterMinTarget = 1,
+							clusterRadius = 8,
+							clusterRange = 30,
+							conditions = 
+							{
+							},
+							endIfUsed = false,
+							fallthrough = false,
+							gVar = "ACR_TensorReaper_RushGluttony",
+							gVarValue = 2,
+							ignoreWeaveRules = false,
+							isAreaTarget = false,
+							luaNeedsWeaveWindow = false,
+							luaReturnsAction = false,
+							name = "",
+							potType = 1,
+							setTarget = false,
+							showPositionPreview = false,
+							stopCasting = false,
+							stopMoving = false,
+							targetContentID = -1,
+							targetName = "",
+							targetSubType = "Nearest",
+							targetType = "Self",
+							untarget = false,
+							useForWeaving = false,
+							useItem = false,
+							useItemID = 0,
+							useItemName = "",
+							usePot = false,
+							uuid = "168a6bef-b6fe-7aba-a117-20b9fa5c5ad5",
 							variableIsHover = false,
 							variableTogglesType = 1,
 							version = 2,
@@ -940,7 +995,7 @@ local tbl =
 		"store\\anyone\\extremes\\zodiark",
 	},
 	mapID = 993,
-	version = 2,
+	version = 3,
 }
 
 
